@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+   
+
+    <script src="JavaScrips/js.js"></script>
+    <link rel="stylesheet" href="Styles/estilos.css">
+
+
+    <title>Calculadora de Proporciones</title>
+</head>
+<body>
+    <div class="container card mt-3">
+            <div class="text-center mt-3">
+                <img src="Img/logomanasia.png" alt="">
+            </div>
+            <div class="text-center background-color cabecera">
+                <h1>CALCULADORA DE PROPORCIONES</h1>
+                <p>Esta calcula cuantas dimensiones pueden haber en una área de un determinado tamaño..</p>
+
+
+            </div>
+        
+
+       
+
+       <div>
+        <hr>
+
+        <form action="">
+            
+            <div class="mb-3">
+            <h4>Tamaño del area superior</h4>
+            <label for="textanchom">Ancho:</label>
+            <input type="text" class="form-control" id="textanchom" name="textanchom">
+            <label for="textaltom">Alto:</label>
+            <input type="text" class="form-control" id="textaltom" name="textaltom">
+            </div>
+            
+
+            <div class="mb-3" >
+                <h4>Tamaño del area inferior</h4>
+                <label for="textanchop">Ancho:</label>
+                <input type="text" class="form-control" id="textanchop" name="textanchop">
+                <label for="textaltop">Alto:</label>
+                <input type="text" class="form-control" id="textaltop" name="textaltop">
+                </div>
+
+                <input type="button" class="btn btn-primary mb-3 form-control" value="Calcular" onclick="Ejecutar()">
+        </form>
+
+        <div class="resultadopadre text-center">
+
+           <p>El resultado es: <b> <p id="resultado">0</p></p></b>
+
+        </div>
+
+       </div>
+
+    </div>
+
+    <div class="container">
+        
+      
+        <div class="row text-center">
+           <strong><p>Utilidades</p></strong> 
+            <div class="col-4">
+                <a href="https://web.whatsapp.com/%F0%9F%8C%90/es" class="btn btn-success mb-3 form-control  bi bi-whatsapp" target="_blank"> Ir a whatsapp </a>
+            </div>
+            
+            <div class="col-4">
+                <a href="https://www.google.com/" class="btn btn-danger mb-3 form-control bi bi-google" target="_blank"> Ir a Google</a>
+            </div>
+
+            <div class="col-4">
+                <a style="background-color:red ;" href="https://www.google.com/" class="btn btn-danger mb-3 form-control bi bi-youtube"" target="_blank"> Ir a Youtube</a>
+            </div>
+
+        </div>
+        
+        
+    </div>
+  
+    
+</body>
+</html>
