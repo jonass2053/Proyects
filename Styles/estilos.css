@@ -3,3 +3,60 @@
     background-color: red;
     color: white;
 }
+
+
+.titulo
+{
+    font-size: 20px;
+}
+
+
+.subtitulo
+{
+    font-size: 17px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+#col1
+{
+    background-color: rgb(240, 240, 240);
+   padding: 20px;
+}
+
+#col3
+{
+    background-color: rgb(240, 240, 240);
+   padding: 20px;
+}
+
+#col2
+{
+    background-color: rgb(207, 207, 207);
+   padding: 20px;
+}
+
+#row
+{
+   display: inline-block;
+   
+
+   
+  
+    
+}
+
+.corte
+{
+    
+  
+    background-color: blue;
+    border:1px solid white;
+    color: white;
+    font-size: 8px;
+ 
+   
+}
+

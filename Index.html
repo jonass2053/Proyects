@@ -33,8 +33,105 @@
        <div>
         <hr>
 
-        <form action="">
+
+      <!-- this is a new desing of the proportions calculator  -->
+
+      <div class="container-fluit">
+
+        <div class="row">
+
+            <div class="col col-4 columna text-center" id="col1">
+                <h1 class="titulo">INTRODUZCA LOS DATOS</h1>
+
+                <form action="">
+
+                    <h2 class="subtitulo">Tamaño de pliego</h2>
+                
+                
+                    <input type="text" id="textanchom" class="form-control" placeholder="Ancho">
+
+                    <input type="text" id="textaltom" class="form-control" placeholder="Alto">
+
+
+                    <h2 class="subtitulo">Medida de corte</h2>
+                
+                
+                    <input type="text" id="textanchop" class="form-control" placeholder="Ancho">
+
+                    <input type="text" id="textaltop" class="form-control" placeholder="Alto">
+
+                    
+                <input type="button" id="btncalcular" class="btn btn-primary mb-3 form-control" value="Calcular" onclick="Ejecutar()">
+
+                <p>El resultado es: <b> <p id="resultado">0</p></p></b>
+                </form>
+
+
+            </div>
+
+            <div class="col col-8 columna " id="col2">
+               
+                <h1 class="titulo text-center">PLIEGO</h1>
+                <div id="dimension">
+                    
+                    <div class="pliego text-center" id="pliego">
+
+                        
+                      
+
+
+
+
+                    </div>
+                    
+                  
+                   
+                    
+                  
+                 
+                   
+                     
+                </div>
+
+
+             
+
+
+            </div>
+
+        
+
+
+
+
+
+
+
+
             
+            
+          
+         
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+      <!-- end of new desing  -->
+
+
+
+
+
+<!--         <form action="">
             <div class="mb-3">
             <h4>Tamaño del area superior</h4>
             <label for="textanchom">Ancho:</label>
@@ -58,13 +155,13 @@
         <div class="resultadopadre text-center">
 
            <p>El resultado es: <b> <p id="resultado">0</p></p></b>
+           
 
         </div>
-        <p>yo soy un cambio</p>
 
        </div>
 
-    </div>
+    </div> -->
 
     <div class="container">
         
@@ -88,6 +185,6 @@
         
     </div>
   
-    
+    <script src="/JavaScrips/cortes.js"></script>
 </body>
 </html>
