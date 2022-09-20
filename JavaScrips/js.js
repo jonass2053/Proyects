@@ -38,9 +38,10 @@ const crearCortes = (val1, val2, ancho, alto) => {
             for (let index = 0; index < val1; index++) {
                 let col = document.createElement("div");
                 col.className = "col corte colcorte "
-                col.innerHTML = `${contador}`;
+                col.innerHTML = `<b>${contador}`;
                 contador++;
                 col.style.color = "white"
+               
                 col.style.width=`${ancho}0%`;
                 col.style.height=`${alto}0%`;
               

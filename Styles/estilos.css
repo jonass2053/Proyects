@@ -1,13 +1,21 @@
-.cabecera
+body
 {
-    background-color: red;
-    color: white;
+    background-color: rgb(1, 85, 84);
+  
+}
+
+
+
+h1{
+    color:rgb(1, 85, 84);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
 }
 
 
 .titulo
 {
-    font-size: 20px;
+    font-size: 20\px;
 }
 
 
@@ -22,41 +30,50 @@ input{
 
 #col1
 {
-    background-color: rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
    padding: 20px;
+   margin-bottom: 20px;
 }
 
-#col3
-{
-    background-color: rgb(240, 240, 240);
-   padding: 20px;
-}
+
 
 #col2
 {
     background-color: rgb(207, 207, 207);
-   padding: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-#row
-{
-   display: inline-block;
-   
 
-   
-  
-    
-}
 
 .corte
 {
     
   
-    background-color: blue;
+    background-color: rgb(1, 85, 84);
     border:1px solid white;
     color: white;
     font-size: 8px;
+   
+   
  
    
 }
 
+footer
+
+{
+    background-color: rgb(1, 85, 84);;
+    text-align: center;
+    color: white;
+}
+.contacto
+{
+    color: white;
+   
+}
+span i{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
