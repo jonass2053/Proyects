@@ -63,7 +63,7 @@ input{
 footer
 
 {
-    background-color: rgb(1, 85, 84);;
+    background-color: rgb(1, 85, 84);
     text-align: center;
     color: white;
 }
@@ -76,4 +76,82 @@ span i{
     color: white;
     font-size: 25px;
     margin: 5px;
+}
+
+
+#parte2
+{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.colums
+{
+    width: 500px;
+    margin: 25px;
+}
+
+
+.contenedrocirculo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.circulo 
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    right: 100px;
+    border: px solid   rgb(1, 85, 84);
+    box-shadow: 0px 0px 5px 5px;
+    background-position: center;
+    background-size: 100px;
+   
+
+}
+#moneda10
+{
+    background-image: url(/Img/10delante.jpg);
+     animation: moneda10 linear infinite 2s;  
+}
+
+#moneda25
+{
+   animation: moneda25 linear infinite 4s;
+}
+
+
+
+
+@keyframes moneda25
+{
+    0%{transform: rotateX(0deg);  background-image: url(/Img/moneda.jpg); }
+   25%{}
+   50%{transform: rotateY(190deg);   background-image: url(/Img/moneda2.jpg); }
+   75%{}
+   100%{transform: rotateY(360deg);  background-image: url(/Img/moneda.jpg); } 
+
+
+}
+
+@keyframes moneda10
+{
+    0%{transform: rotateY(0deg);  background-image: url(/Img/10detras.jpg); }
+   25%{}
+   50%{transform: rotateY(190deg);   background-image: url(/Img/10delante.jpg); }
+   75%{}
+   100%{transform: rotateY(360deg);  background-image: url(/Img/10detras.jpg); } 
+
+
 }

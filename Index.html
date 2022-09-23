@@ -130,6 +130,68 @@
       
     </div>
 
+
+
+
+
+<!--animacion-->
+<div class="contenedrocirculo">
+    <div class="circulo" id="moneda25"></div>
+    <div class="circulo" id="moneda10"></div>
+    
+
+</div>
+
+
+
+
+
+<!--seccion dos para calculo de materiales por pie cuadrado-->
+<div class="container mt-3  " id="parte2">
+ 
+    <div class="row">
+
+        <div class="colums">
+           <form action="">
+            <h1>CALCULADORA POR PIE CUADRADO X PRECIO</h1>
+            <h5>Caculadora de precio por pies cuadrados</h5>
+            <hr>
+            <p>
+              <b>Colocar medida en:</b>    <br>
+                <input type="radio" name="Pulgadas" id="rdpulgada" onclick="limpiar()" >  Pulgadas
+                <input type="radio" name="Pulgadas" id="rdpies" onclick="limpiar()" >  Pies
+               
+                
+            </p>
+
+            <input type="text" placeholder="Ancho" class="form-control mb-3" id="text1">
+            <input type="text" placeholder="Alto" class="form-control mb-3" id="text2">
+            <input type="text" placeholder="Precio por pies del material" class="form-control mb-3" id="text3">
+            <input type="button" value="Calcular" class="btn btn-success mb-3" onclick="calcular2()">
+           
+            <p> <b><label for="" id="tpies"></label></b></p>
+            <input type="text" placeholder="Resultado" class="form-control mb-3" id="text4" readonly="true">
+
+           </form>
+
+        </div>
+
+
+       
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
       <!-- end of new desing  -->
         <div class="container-fluit mt-3 mb-3">
             <footer>
@@ -148,10 +210,9 @@
 
 
 
-
-
     
-  
+        
        <script src="/JavaScrips/cortes.js"></script>
+       <script src="/JavaScrips/parte2.js"></script>
 </body>
 </html>
