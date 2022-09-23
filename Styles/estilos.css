@@ -93,8 +93,14 @@ span i{
 
 .colums
 {
-    width: 500px;
+    padding: 1px;
+    width: auto;
     margin: 25px;
+}
+
+form-control
+{
+    width: 50px;
 }
 
 
