@@ -9,7 +9,7 @@ let colums;
 let contador = 1;
 let valor1, valor2, valor3, valor4;
 
-
+// Esta parte es relacionada a la creacion de la grafica al lado derecho
 const verificacion =()=>
 {
     let pliego = document.getElementById("pliego");
@@ -25,7 +25,7 @@ const verificacion =()=>
     }
 }
 
-
+// Esta parte crea los cortes
 const crearCortes = (val1, val2, ancho, alto) => {
         verificacion();
        let pliego = document.getElementById("pliego");
@@ -50,10 +50,6 @@ const crearCortes = (val1, val2, ancho, alto) => {
             }
             pliego.appendChild(fila);
 
-
-        
-
-
         }
 
         // eliminar cortes 
@@ -69,18 +65,14 @@ const crearCortes = (val1, val2, ancho, alto) => {
         contador = 1;
     
 
-
-    
-
-
 }
-
+//Calculadora de los precios
 function Calcular(anchom, alltom, anchop, altop) {
     let temp;
      valor1 = anchom / anchop;
      valor2 = alltom / altop;
 
-    let resultado1 = parseInt(valor1) * parseInt(valor2);
+    let resultado1  = parseInt(valor1) * parseInt(valor2);
 
     temp = anchom;
     anchom = alltom;
@@ -95,15 +87,9 @@ function Calcular(anchom, alltom, anchop, altop) {
         colums = parseInt(valor2);
 
         crearCortes(rows, colums, anchop, altop);
-
-
-
         console.log(`numero1 ${rows}, ${colums}`);
 
         return resultado1;
-
-
-
 
     }
     else {
@@ -112,9 +98,6 @@ function Calcular(anchom, alltom, anchop, altop) {
         console.log(`numero1 ${rows}, ${colums}`);
 
         crearCortes(rows, colums);
-
-
-        1
         return resultado2;
 
     }

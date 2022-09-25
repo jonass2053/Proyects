@@ -19,16 +19,30 @@
    
    
     <header class="text-center text-light mt-3">
-        
+
+        <div class="container">
+            <div class="nav">
+                <div class="color" id="gray"></div>
+                <div class="color" id="black"></div>
+                <div class="color" id="colordefault"></div>
+                <div class="color" id="white"></div>
+            </div>
+        </div>
+
+     
+
+       
         <h3>Hola mi nombre es Jonás Diaz</h3>
-        <p>Bienvenido a unos de mis proyectos,
-            el cual esta desarrollado  <br> en <b>html, css y JavaScrips</b>
-            <br>
-            <section style="font-size:35px ;">
+            <p id="pheader">
+            
+            Bienvenido a unos de mis proyectos,
+            el cual esta desarrollado  <br> en <b>html, css y JavaScrips.</b>
+            Esta fue desarrollada con el fin de ahorrar un poco de tiempo en algunos calculos basicos.
+            <section style="font-size:35px;">
             <i class="bi bi-filetype-html"></i> 
             <i class="bi bi-filetype-css"></i>
             <i class="bi bi-filetype-js"></i>
-        </section>
+            </section>
         </p>
         
 
@@ -79,10 +93,26 @@
 
                     <input type="text" id="textaltop" class="form-control" placeholder="Alto">
 
+                  <!--   <h2 class="subtitulo">  Precio del material por</h2>
+                    
+                    <p>
+                        <input type="radio" name="medida" id="drbunidad"> Unidad     
+                        <input type="radio" name="medida" id="drbunidad"> Pies    
+
+                    </p>
+                         -->
+
+                  
+                    
+
+                  <!--  <input ty$pe="text" id="textaltop" class="form-control" placeholder="Precio $:"> -->
+                  
+
+
                     
                 <input type="button" id="btncalcular" class="btn btn-primary mb-3 form-control" value="Calcular" onclick="Ejecutar()">
 
-                <p>El resultado es: <b> <p id="resultado">0</p></p></b>
+                <p>El resultado es: <b> <p id="resultado"></p></p></b>
                 </form>
 
 
@@ -153,14 +183,15 @@
     <div class="row">
 
         <div class="colums">
+            <h1>CALCULADORA DE PRECIO POR PIES CUADRADO</h1>
+
            <form action="">
-            <h1>CALCULADORA POR PIE CUADRADO X PRECIO</h1>
-            <h5>Caculadora de precio por pies cuadrados</h5>
+            
             <hr>
             <p>
               <b>Colocar medida en:</b>    <br>
                 <input type="radio" name="Pulgadas" id="rdpulgada" onclick="limpiar()" >  Pulgadas
-                <input type="radio" name="Pulgadas" id="rdpies" onclick="limpiar()" >  Pies
+                <input type="radio" name="Pies" id="rdpies" onclick="limpiar()" >  Pies
                
                 
             </p>

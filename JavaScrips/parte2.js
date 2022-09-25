@@ -53,4 +53,91 @@ const calcular2=()=>
 }
 
 
+//elementos a los cuales se le cambiara el color
+let body = document.querySelector("body");
+let h1 = document.querySelector("h1");
+let footer = document.querySelector("footer");
+let titulo=document.querySelector(".titulo");
+let pheader = document.querySelector("p");
+let white = document.querySelector("#white");
+let h3=document.querySelector("h3");
+let i = document.querySelectorAll("i");
+
+
+// cambiar color a gris
+
+let gray = document.querySelector("#gray");
+gray.addEventListener("click", ()=>{
+
+  
+    body.style.backgroundColor="gray";
+    h1.style.color="gray";
+    footer.style.backgroundColor="gray";
+    titulo.style.color="gray";
+
+    
+
+
+})
+// cambiar color a black
+
+let black = document.querySelector("#black");
+black.addEventListener("click", ()=>{
+
+    body.style.backgroundColor="black";
+    h1.style.color="black";
+    titulo.style.color="black"
+    footer.style.backgroundColor="black";
+    footer.style.color="white";
+    
+    
+
+
+
+
+})
+// cambiar color a color deafutl
+
+let colordefault = document.querySelector("#colordefault");
+colordefault.addEventListener("click", ()=>{
+
+  
+    
+    body.style.backgroundColor="#015554";
+    h1.style.color="#015554";
+    titulo.style.color="#015554"
+    footer.style.backgroundColor="#015554";
+    pheader.style.color="white";
+    h3.style.color="white";
+    console.log(i);
+    i.forEach(element => {
+        element.style.color="white";
+
+    });
+    footer.style.color="white";
+
+
+})
+
+
+// cambiar color a a white
+
+white.addEventListener("click", ()=>
+{
+    body.style.backgroundColor="white";
+    footer.style.backgroundColor="white";
+    pheader.style.color="#015554";
+    h3.style.color="black";
+    console.log(i);
+    i.forEach(element => {
+        element.style.color="black";
+
+    });
+    footer.style.color="black";
+
+})
+
+
+
+
 
