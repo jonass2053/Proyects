@@ -88,9 +88,14 @@ black.addEventListener("click", ()=>{
     h1.style.color="black";
     titulo.style.color="black"
     footer.style.backgroundColor="black";
+    pheader.style.color="white";
+    h3.style.color="white";
+    console.log(i);
+    i.forEach(element => {
+        element.style.color="white";
+
+    });
     footer.style.color="white";
-    
-    
 
 
 
