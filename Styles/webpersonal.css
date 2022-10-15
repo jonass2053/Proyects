@@ -1,3 +1,5 @@
+
+
 .logo
 {
   
@@ -50,7 +52,7 @@
 { 
    
     height: 550px;
-    background: linear-gradient(rgba(34,34,44, 0.7) , rgba(34,34,44, 0.7)),  url(/Img/programando.jpg);
+    background: linear-gradient(rgba(34,34,44, 0.7) , rgba(34,34,44, 0.7)),  url(Img/programando.jpg);
     background-size: 100%;
     background-position: center;
    
@@ -148,7 +150,7 @@
     height: 200px;
     border: 5px solid rgb(2, 231, 169);
     border-radius: 100%;
-    background-image: url(/Img/terminator.png);
+    background-image: url(Img/terminator.png);
     background-position: center;
     background-size: 12rem;
    
