@@ -1,4 +1,8 @@
 
+body
+{
+    background-color: rgb(34,34,44);
+}
 
 .logo
 {
@@ -167,8 +171,8 @@
     height: 200px;
     border: 5px solid rgb(2, 231, 169);
     border-radius: 100%;
-    background-image: url(../Img/terminator.png);
-    background-position: center;
+    background-image: url(../Img/mifoto.png);
+    background-position: top;
     background-size: 12rem;
    
 }
@@ -214,4 +218,119 @@
 {
     
     bottom: 5px
+}
+
+
+#sobremi
+{
+    height: 500px;
+    background-color: rgb(34,34,44);
+
+}
+#sobremi h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sobremi hr
+{
+    border-color: white;
+}
+
+.pinfo
+{
+    text-align: left;
+}
+.pinfo b
+{
+    color: rgb(2, 231, 169);
+}
+.pinfo h5
+{
+   color: red;
+}
+
+.otrainfo
+{
+    margin-top: 50px;
+}
+.otrainfo ul
+{
+
+    margin: 0px;
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+    
+}
+.otrainfo h2
+{
+    text-align: center;
+
+}
+
+
+.otrainfo ul li b
+{
+    color: rgb(2, 231, 169);
+}
+
+.proyectos
+{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.item
+{
+    margin: 1px;
+    width: 350px;
+    height: 275px;
+    background-color: white;
+    border: 1px soli gray;
+}
+.contfotosobremi
+{
+    display: flex;
+    justify-content: center;
+}
+.fotosobremi
+{
+    margin-top: 0 auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(2, 231, 169, 0.5);
+    float: center;
+}
+
+
+.habilidades ul
+{
+  
+    border: 1px solid white;
+    margin-top: -15PX;
+    padding: 0;
+    border-radius: 5PX;
+     
+    
+}
+.habilidades p
+{
+ color: rgb(2, 231, 169);
+     
+    
+}
+.habilidades ul li
+{
+    text-align: center;
+    color: white;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+.detallehabilidades
+{
+  
+    width: 50px;
 }
