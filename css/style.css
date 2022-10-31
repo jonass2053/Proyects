@@ -73,7 +73,7 @@
 #home
 
 {
-    background: linear-gradient( rgba(34,34,44, 0.35) , rgba(34,34,44, 0.7)),  url(../img/fondo.jpg); 
+    background: linear-gradient( rgba(34,34,44, 0.35) , rgba(34,34,44, 0.7)),  url(img/fondo.jpg); 
     background-repeat: no-repeat;
     height: 1250px;
     background-size: 100%; 
@@ -108,7 +108,7 @@
 body
 {
     background-color: rgb(255, 231, 200);
-    background-image: url(../img/beige-aged-background.jpg);  
+    background-image: url(img/beige-aged-background.jpg);  
     
 }
 
@@ -117,7 +117,7 @@ body
 {
    
     height: 500px;
-    background-image: url(../img/4dbcb8a44a6ca3958ede472669042308.jpg);
+    background-image: url(img/4dbcb8a44a6ca3958ede472669042308.jpg);
 }
 #info
 {
