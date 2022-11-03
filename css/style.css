@@ -58,6 +58,7 @@
     position:fixed;
     z-index: 1;
     width: 100%;
+    border: 1px solid red;
     
    
 
@@ -366,3 +367,23 @@ footer
     font-weight: 100;
 }
 
+#navegacion
+{
+    color: black;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#padre
+
+{
+    display: flex;
+}
+
+#padre div
+
+{
+    margin: 5px;
+}
